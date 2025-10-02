@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+main{
+    width: 80%;
+    height: 720px;
+}
+#um{
+    width: 48%;
+    height: 700px;
+    background-color: gray;
+    float: left;
+    margin: 1%;
+    border-radius: 30px;
+    box-shadow: 8px 8px 10px #000; 
+}
+#dois{
+    width: 48%;
+    height: 700px;
+    background-color: gray;
+    float: left;
+    margin: 1%;
+    border-radius: 30px;
+    box-shadow: 8px 8px 10px #000;
+}
+img{
+    border-radius: 90px;
+    width: 80%;
+    height: 300px;
+    margin: 10%;
+    box-shadow: 4px 4px 7px  #000;
+}
+p img{
+    text-align: center;
+}
+p{
+    padding: 3%;
+    text-align: justify;
+    line-height: 20px;
+}
+h1{
+    padding-left: 3%;   
+}
+.btn {
+    padding: 15px;
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid rgb(0, 0, 0);
+    color: #000;
+    border-radius: 5px;
+    margin: 35%;
+}
+@media only screen and (max-width: 768px){
+    main{ width: 80%;}
+    #um, #dois{width: 100%; height: auto;}
+    a {width: 100%; padding: 0;}
+
+}
+@media only screen and (max-width: 576px){
+    main{ width: 80%;}
+    #um, #dois{width: 100%; height: auto;}
+    a {width: 100%; padding: 0;}
+
+}
